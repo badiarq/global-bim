@@ -9,7 +9,7 @@ export const LogOutButton: FC = () => {
 
   return (
     <>
-      <button onClick={onLogoutClick}>
+      <button className="btn-secondary-middle" onClick={onLogoutClick}>
         Log out
       </button>
     </>

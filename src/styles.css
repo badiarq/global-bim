@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary-dark {
+    @apply bg-primary-dark text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-primary-middle {
+    @apply bg-primary-middle text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-primary-light {
+    @apply bg-primary-light text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-secondary-dark {
+    @apply bg-secondary-dark text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-secondary-middle {
+    @apply bg-secondary-middle text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-secondary-light {
+    @apply bg-secondary-light text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
+}
+
+.btn-gray-out {
+    @apply bg-gray-300 text-white rounded-xl py-1 px-3 font-bold cursor-not-allowed shadow-md;
+}

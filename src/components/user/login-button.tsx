@@ -8,5 +8,5 @@ export const LogInButton: FC = () => {
     dispatch({ type: "LOGIN" });
   };
 
-  return <button onClick={onLoginClick}>Log in</button>;
+  return <button className="btn-primary-dark" onClick={onLoginClick}>Log in</button>;
 };
