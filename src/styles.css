@@ -3,6 +3,28 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html, #app, .App, .home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark, .bg-dark-hover:hover {
+    fill-opacity: 1;
+    background-color: rgba(31,33,40,1);
+}
+
+.bg-dark-half, .bg-dark-half-hover:hover {
+    fill-opacity: 0.5;
+    background-color: rgba(31,33,40,0.5);
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
 .btn-primary-dark {
     @apply bg-primary-dark text-white rounded-xl py-1 px-3 font-bold cursor-pointer shadow-md;
 }

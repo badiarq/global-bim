@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Dashboard } from "./components/home";
 import { BuildingViewer } from "./components/building-viewer";
 import { MapViewer } from "./components/map-viewer";
 import { initializeApp } from "firebase/app";
@@ -8,6 +7,7 @@ import { ContextProvider } from "./middleware/context-provider";
 // page components
 import Navbar from "./components/Navbar";
 import Map from "./pages/map/map";
+import { Dashboard } from "./pages/home/home";
 
 // Firebase configuration
 const firebaseConfig = {
